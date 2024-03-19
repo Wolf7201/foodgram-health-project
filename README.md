@@ -10,6 +10,7 @@
 [![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org/)
 [![docker](https://img.shields.io/badge/-Docker-464646?style=flat-square&logo=docker)](https://www.docker.com/)
 
+
 Foodgram реализован для публикации рецептов. Авторизованные пользователи
 могут подписываться на понравившихся авторов, добавлять рецепты в избранное,
 в покупки, скачать список покупок ингредиентов для добавленных в покупки
