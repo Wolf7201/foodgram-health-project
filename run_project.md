@@ -38,16 +38,18 @@ ALLOWED_HOSTS=''
 
 ### Запуск и настройка проекта в докер контейнере.
 
+
+
+Откройте консоль и введите команду в папке с файлом docker-compose.yml
+
+   ```bash
+  docker-compose up
+   ```
+
 Проведем миграции
 
    ```bash
    docker compose exec backend python manage.py migrate 
-   ```
-
-Откройте консоль и введите комманду в папке с файлом docker-compose.yml
-
-   ```bash
-  docker-compose up
    ```
 
 Сборка статики для корректной работы админки
